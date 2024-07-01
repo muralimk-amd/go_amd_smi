@@ -36,7 +36,7 @@ cmake_minimum_required(VERSION 3.5.0)
 #   4) #make
 #
 
-option(WITH_ESMI         "Support e-smi (EPYC cpus)"              ON)
+option(WITH_ESMI         "Support e-smi (EPYC cpus)"             OFF)
 option(WITH_ROCM_SMI     "Support Rocm smi (MI200)"              OFF)
 
 set(ESMI_DIR "" CACHE PATH "path to e_smi installation")
